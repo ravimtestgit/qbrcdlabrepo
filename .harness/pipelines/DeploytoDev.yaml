@@ -7,7 +7,7 @@ pipeline:
   stages:
     - stage:
         name: DeployApp
-        
+        identifier: DeployApp
         description: "Hello from Git"
         type: Deployment
         spec:
