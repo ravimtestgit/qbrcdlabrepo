@@ -8,7 +8,7 @@ pipeline:
     - stage:
         name: DeployApp
         identifier: DeployApp
-        description: ""
+        description: "Hello World"
         type: Deployment
         spec:
           deploymentType: Kubernetes
