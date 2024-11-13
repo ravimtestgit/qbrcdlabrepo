@@ -5,7 +5,7 @@ pipeline:
   orgIdentifier: training_13thNov
   tags: {}
   stages:
-    - stage:
+    - stage1:
         name: DeployApp
         identifier: DeployApp
         description: "Hello from Git"
